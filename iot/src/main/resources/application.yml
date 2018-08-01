@@ -1,0 +1,30 @@
+spring:
+  profiles:
+    active: test
+
+---
+server:
+  port: 18082
+spring:
+    profiles: dev
+
+
+---
+server:
+  port: 18082
+spring:
+    profiles: test
+
+
+---
+server:
+  port: 18081
+spring:
+    profiles: stage
+
+
+---
+server:
+  port: 18081
+spring:
+    profiles: prod
